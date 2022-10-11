@@ -1,0 +1,144 @@
+/*Hamburger Menu Icon  
+STOLEN COMPLETELY FROM TRAVERSY MEDIA
+
+
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    background: none;
+    border: none;
+    z-index: 10;
+    transition: all 0.25s;
+    display: none;
+    
+  }
+  
+  .hamburger-top,
+  .hamburger-middle,
+  .hamburger-bottom {
+    position: absolute;
+    top: 18px;
+    left: -18px;
+    width: 24px;
+    height: 4px;
+    background:#000;
+    transform: rotate(0);
+    transition: all 0.5s;
+    border:1px solid red;
+  }
+  
+  .hamburger-middle {
+    transform: translateY(8px);
+  }
+  
+  .hamburger-bottom {
+    transform: translateY(16px);
+  }
+  
+  .open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translateX(6px);
+  }
+  
+  .open .hamburger-middle {
+    display: none;
+  }
+  
+  .open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+  }
+  
+
+
+ Mobile Menu 
+STOLEN COMPLETELY FROM TRAVERSY MEDIA
+.mobile-menu {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  background-color: #000;
+  color:$light-color;
+  width: 70%;
+  height: 100%;
+  padding: 20px;
+  box-shadow: inset 0 4px 3px -3px rgb(0 0 0 / 10%),
+  inset 0 4px 2px -2px rgba(19, 18, 18, 0.896);
+  transition: all 0.3s;
+  z-index:10;
+}
+
+
+.mobile-menu h3{font-size:25px;}
+
+
+.mobile-menu ul {
+  line-height: 2;
+  list-style-type:none;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.mobile-menu a {
+  text-decoration:none;
+  font-size: 20px;
+  font-family: realist, sans-serif;
+  font-style:normal;
+  color:#fff;
+}
+
+.mobile-menu a:hover {
+  color: rgb(173, 172, 172)
+}
+
+.mobile-menu div {
+  margin-top: 10px;
+}
+
+
+.hidden {
+  transform: translateX(100%);
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+  
+*/
+
+/* NY KOD */ 
+
+
+.main-nav{
+    background-color: $color-accent;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+    h1 {
+        padding:10px;
+    }
+}
+
+.main-ul {
+    display: flex;
+    list-style-type: none;
+    padding-right:2rem;
+    
+    li {
+       
+    }
+
+    a {
+        text-decoration: none;
+        color:$color-light;
+        padding:1rem;
+    }
+
+    a:hover {
+        background-color:$color-tone;
+    }
+}
+
+
+
