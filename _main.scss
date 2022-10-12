@@ -1,25 +1,70 @@
+main {
+   padding: 10px;
+}
+
+
 .Om-section {
 
 
-    h2 {
-        font-weight: 700;
-        margin:1rem;
-        font-size:3rem;
-    
-    }
+   h2 {
+      font-weight: 700;
+      margin: 1rem;
+      font-size: $font-large;
+   }
 
-    img {
-        height:auto;
-        width:100%;
-        
-    }
+   h3 {
+      font-size: $font-medium;
+   }
 
-    p {
-        padding:10px;
-    }
 
-    h3 {
-        padding:10px;
-    }
+
 }
 
+
+.horizontal-line {
+   height: 2px;
+   display: block;
+   background-color: #FE5D26;
+}
+
+.Portfolio-section img {
+   object-fit: cover;
+   height: 50vh;
+
+}
+
+
+/* FOR DESKTOP 
+ .Portfolio-section {
+    display:grid;
+    grid-template-columns: repeat(12, 10%);
+    
+ }
+
+ .port-code {
+    grid-column: 1/-1;
+ }
+
+
+ .port-visual {
+
+    grid-column:4/6 ;
+ }
+ */
+
+.kontakta-mig {
+   display: flex;
+   align-items: center;
+   gap: 3px;
+}
+
+.fa-paper-plane {
+   margin-top: 3px;
+}
+
+
+.social.med {
+   background-color: #FE5D26;
+   width: 100px;
+   border-radius: 50%;
+}
