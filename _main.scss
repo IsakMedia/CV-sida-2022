@@ -16,13 +16,16 @@ main {
       font-size: $font-medium;
    }
 
-
-
+ span a {
+   text-decoration: none;
+ }
+ a:active {color:#FE5D26;}
 }
 
 
 .horizontal-line {
    height: 2px;
+   margin:10px 0;
    display: block;
    background-color: #FE5D26;
 }
@@ -52,6 +55,13 @@ main {
  }
  */
 
+ .kontakt-section {
+   
+   a {color:$color-accent;}
+   a:hover {color:$color-tone}
+   a:active {color:#FE5D26;}
+ 
+
 .kontakta-mig {
    display: flex;
    align-items: center;
@@ -68,3 +78,5 @@ main {
    width: 100px;
    border-radius: 50%;
 }
+
+ }

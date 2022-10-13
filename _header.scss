@@ -98,9 +98,14 @@
   overflow: hidden;
 }
 */
-
+header {position:static;}
+body {margin-top:50px;}
 
 .main-nav{
+    
+    position: fixed;
+    width:100%;
+    top:0;
     background-color: $color-accent;
     display: flex;
     justify-content: space-between;
