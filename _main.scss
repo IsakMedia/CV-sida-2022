@@ -19,7 +19,7 @@ main {
  span a {
    text-decoration: none;
  }
- a:active {color:#FE5D26;}
+ a:active {color:$color-btn;}
 }
 
 
@@ -27,7 +27,7 @@ main {
    height: 2px;
    margin:10px 0;
    display: block;
-   background-color: #FE5D26;
+   background-color: $color-btn;
 }
 
 .Portfolio-section img {
@@ -37,7 +37,48 @@ main {
 }
 
 
-/* FOR DESKTOP 
+
+
+ .kontakt-section {
+   
+   a {color:$color-accent;}
+   a:hover {color:$color-tone}
+   a:active {color:$color-btn;}
+ 
+
+.kontakta-mig {
+   display: flex;
+   align-items: center;
+   gap: 3px;
+}
+
+.fa-paper-plane {
+   margin-top: 3px;
+}
+
+
+.social.med {
+   background-color: $color-btn;
+   width: 100px;
+   border-radius: 50%;
+}
+
+ }
+
+ .portfolio-section {
+
+   a {
+      font-family: "Roboto Slab", serif;
+      color:$color-accent;
+      text-decoration: none;
+   }
+   a:active {color:$color-btn;}
+ }
+
+
+
+
+ /* FOR DESKTOP 
  .Portfolio-section {
     display:grid;
     grid-template-columns: repeat(12, 10%);
@@ -54,29 +95,3 @@ main {
     grid-column:4/6 ;
  }
  */
-
- .kontakt-section {
-   
-   a {color:$color-accent;}
-   a:hover {color:$color-tone}
-   a:active {color:#FE5D26;}
- 
-
-.kontakta-mig {
-   display: flex;
-   align-items: center;
-   gap: 3px;
-}
-
-.fa-paper-plane {
-   margin-top: 3px;
-}
-
-
-.social.med {
-   background-color: #FE5D26;
-   width: 100px;
-   border-radius: 50%;
-}
-
- }
