@@ -1,0 +1,25 @@
+
+@media screen and (min-width:1023px) {
+    header {
+        position: relative;
+    }
+
+    .main-nav {
+        position:absolute;
+        top:-60px;
+
+    }
+
+    .Om-section {
+        display:flex;
+        width: 100%;
+        flex-grow:1;
+        img {
+            
+            
+        }
+    }
+
+
+    
+}
