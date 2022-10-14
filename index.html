@@ -11,13 +11,18 @@
     <title>Isakmedia.se | Webdeveloper</title>
 
     <link rel="stylesheet" href="style.min.css" />
+    <meta property="og:url" content="isakmedia.se" />
+    <meta property="og:image" content="res/IsakMedia-logo-ignore.png" />
   </head>
   <body>
     <header>
       <nav class="main-nav">
         <h1>
+          <span class="sr-only">IsakMedia</span>
           <a href="index.html"
             ><img
+              title="IsakMedia"
+              aria-hidden="true"
               class="logo"
               src="res/IsakMedia-logo-ignore.png"
               alt="IsakMedia logo"
@@ -35,6 +40,7 @@
 
     <main>
       <h2>Välkommen till IsakMedia</h2>
+      <div class="horizontal-line"></div>
       <section class="Om-section">
         <img
           class="profile-pic"
@@ -42,33 +48,32 @@
           alt="sidskaparen, isak"
         />
         <h3>
-          Hej! Mitt namn är Isak. Jag är en Front-end developer från UXbekistan
-          :)
+          Hej! Mitt namn är Isak. Jag är en Front-end developer från UXbekistan.
+          Gillar Jag gillar film, Skateboarding och kreativa sammahang :) Mer om
+          mig
           <span>
-            <a href="om.html"
-              >Mer om mig här <i class="fa-solid fa-arrow-right"></i
-            ></a>
+            <a href="om.html">här<i class="fa-solid fa-arrow-right"></i></a>
           </span>
         </h3>
       </section>
 
+      <h2>Portfolio</h2>
+      <div class="horizontal-line"></div>
       <section class="portfolio-section">
-        <h2>Portfolio</h2>
-        <div class="horizontal-line"></div>
-
-        <article class="port-code">
+        <article class="port-code card">
+          <h3>Web</h3>
           <div class="image-box">
             <img src="res/Meta short.png" alt="blandad css kod" />
           </div>
-
-          <h3>Web</h3>
-          <p>Läser front-end utveckling. Html, css och javascript.</p>
-          <a href="portfolio.html"
-            >Läs mer om min process här<i class="fa-solid fa-arrow-right"></i
-          ></a>
+          <p>
+            Läser front-end utveckling. Html, css och javascript.
+            <a href="portfolio.html"
+              >Läs mer om min process här<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </p>
         </article>
 
-        <article class="port-visual">
+        <article class="port-visual card">
           <h3>Bild</h3>
           <div class="image-box">
             <img
@@ -81,14 +86,14 @@
             ineffektivt. ett rejält hopp gjordes när jag läste Grafisk Design
             och också skaffade the adobe suite, och gick från Photoshop CS3 till
             Photoshop 2020. Den här bilden är gjord med hjälp av Photoshop och
-            lite Cinema 4D. I framtiden ska jag lära mig blender istället.
+            lite Cinema 4D. Läs mer om hur den här bilden blev till
             <a href="portfolio.html"
-              >Läs mer<i class="fa-solid fa-arrow-right"></i
+              >här<i class="fa-solid fa-arrow-right"></i
             ></a>
           </p>
         </article>
 
-        <article class="port-film">
+        <article class="port-film card">
           <h3>Film</h3>
           <div class="image-box">
             <video controls width="300">
@@ -109,17 +114,21 @@
         </article>
       </section>
 
+      <h2>Kontakt</h2>
       <section class="kontakt-section">
-        <h2>Kontakt</h2>
         <div class="horizontal-line"></div>
-
         <div class="kontakta-mig">
           <i class="fa-solid fa-paper-plane"></i>
-          <h3><a href="mailto:hej@isakmedia.se">Kontakta mig</a></h3>
+          <h3><a href="mailto:hej@isakmedia.se">Maila mig</a></h3>
         </div>
 
         <div class="social-med">
-          <a href="#"> <i class="fa-brands fa-linkedin fa-xl"></i> </a>
+          <a
+            href="https://www.linkedin.com/in/isak-westerberg-a3700167/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin fa-xl"></i>
+          </a>
           <a href="#"><i class="fa-brands fa-instagram fa-xl"></i> </a>
           <a href="#"><i class="fa-brands fa-dribbble fa-xl"></i> </a>
         </div>
@@ -128,13 +137,12 @@
 
     <footer class="main-footer">
       <ul class="footer-ul">
-        <li><a href="#">CV.pdf</a></li>
+        <li><a href="res/CV-grafik.pdf" target="_blank">Mitt CV som pdf</a></li>
         <li id="cookies">
           <a href="#">Cookiespolicy</a>
         </li>
         <li><a href="#">Kontakt</a></li>
       </ul>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>
