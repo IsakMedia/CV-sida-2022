@@ -32,10 +32,13 @@ body {margin-top:50px;}
         color:$color-light;
         padding:1rem;
     }
-
-    a:hover {
-        background-color:$color-tone;
+    a:active {
+        color:$color-btn;
     }
+    a:hover {
+        color:$color-btn;
+    }
+    
 }
 
 .logo {

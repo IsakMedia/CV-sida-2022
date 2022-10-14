@@ -22,10 +22,11 @@
         color:$color-light;
         padding:10px;
     }
-
+    a:active {
+        color:$color-btn;
+    }
     a:hover {
-        background-color: $color-tone;
-        
+        color:$color-btn;
     }
 }
 

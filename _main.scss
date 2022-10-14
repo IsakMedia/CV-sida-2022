@@ -1,5 +1,8 @@
 main {
    padding: 10px;
+   h2 {
+      margin-top:2rem;
+   }
 }
 
 
@@ -8,12 +11,11 @@ main {
 
    h2 {
       font-weight: 700;
-      margin: 1rem;
       font-size: $font-large;
    }
 
    h3 {
-      font-size: $font-medium;
+      font-size: $font-small;
    }
 
  span a {
