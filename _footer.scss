@@ -1,32 +1,33 @@
 .main-footer {
-    
+
     overflow: hidden;
     bottom: 0;
     display: flex;
-    color:$color-light; 
-    background-color:$color-accent;
+    color: $color-light;
+    background-color: $color-accent;
     justify-content: flex-start;
     align-items: center;
-    
+
     .footer-ul {
         display: flex;
-        list-style-type: none; 
-        gap:10px;
+        list-style-type: none;
+        gap: 10px;
 
-        
-    } 
+
+    }
 
 
     a {
         text-decoration: none;
-        color:$color-light;
-        padding:10px;
+        color: $color-light;
+        padding: 10px;
     }
+
     a:active {
-        color:$color-btn;
+        color: $color-btn;
     }
+
     a:hover {
-        color:$color-btn;
+        color: $color-btn;
     }
 }
-
