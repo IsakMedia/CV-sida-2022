@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100;0,400;0,700;1,400&family=Roboto+Slab:wght@100;500;700;800&display=swap");
-
+@import url("https://use.typekit.net/lel4nru.css");
+/* babas neue och monserat från adobe   */
 /*
 font-family: "Bebas Neue", cursive;
 font-family: "Roboto Mono", monospace;
 font-family: "Roboto Slab", serif;
+
+font-family: montserrat, sans-serif;
+font-family: bebas-neue-pro, sans-serif;
 */
 
 $color-light: #faf0ca;
-$color-dark:#0a0907;
-$color-accent:#0d3b66;
+$color-dark: #0a0907;
+$color-accent: #0d3b66;
 $color-tone: #104578;
-$color-btn:#FE5D26;
+$color-btn: #FE5D26;
 
 $font-small: 1rem;
 $font-medium: 1.5rem;
@@ -20,56 +24,61 @@ $font-large: 2rem;
 
 
 body {
-  
+
   margin: 0;
   padding: 0;
-  background-color:$color-light;
-   
+  background-color: $color-light;
+
 }
 
-body > * {
+body>* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-img {width:100%;}
+img {
+  width: 100%;
+}
 
-video {width:100%;}
+video {
+  width: 100%;
+}
 
 h1,
 h2 {
-  font-family: "Bebas Neue", cursive;
-  margin: 0;
+  font-family: bebas-neue-pro, sans-serif margin: 0;
 }
 
 h1 {
   font-weight: 700;
   font-size: $font-large;
-  
+
 }
 
 h3 {
-  font-family: "Roboto Mono", monospace;
+  font-family: montserrat, sans-serif;
 }
 
 p {
-  font-family: "Roboto Slab", serif;
+  font-family: montserrat, sans-serif;
   font-size: $font-small;
   font-weight: 400;
+}
+
+a {
+  font-family: montserrat, sans-serif;
 }
 
 /* En  egenskapad font-awesome biblioteks-class */
 .sr-only {
   position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    white-space: nowrap;
-    border-width: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
-
-
